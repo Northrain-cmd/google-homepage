@@ -1,0 +1,26 @@
+html{box-sizing:border-box}
+#Logo-search{
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content:center;
+align-items: center;
+height: 500px;
+}
+input{
+
+width: 550px;
+text-align: center;
+border: 0.5px solid #cfcac8;
+border-radius: 25px;
+padding: 14px;
+margin-top: 20px;
+background-image: url('Images/icon.png');
+background-repeat: no-repeat;
+background-position: 10px 10px; 
+}
+input:hover{
+    border-style: groove ;
+    box-shadow: 2px 2px 5px 4px #eef0f0;
+   
+}
