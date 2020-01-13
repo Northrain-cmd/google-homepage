@@ -17,10 +17,42 @@ padding: 14px;
 margin-top: 20px;
 background-image: url('Images/icon.png');
 background-repeat: no-repeat;
-background-position: 10px 10px; 
+background-position: 12px 12px; 
 }
 input:hover{
     border-style: groove ;
+    border-width: 1px;
     box-shadow: 2px 2px 5px 4px #eef0f0;
    
+}
+#buttons{
+    margin-top: 30px;
+}
+#lucky{
+    margin-left: 10px;
+    width:136px;
+    height: 35px;
+    border:0.5px solid rgb(240,240,240);
+    background-color: rgb(240,240,240);
+    color: rgb(110,110,110);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    
+
+}
+#search{
+
+    width:135px;
+    height: 35px;
+    border:0.5px solid rgb(240,240,240);
+    background-color: rgb(240,240,240);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(110,110,110);
+    border-radius: 5px;
+}
+#search:hover {
+    border:0.5px solid rgb(200,200,200);
+}
+#lucky:hover{
+    border:0.5px solid rgb(200,200,200);  
 }
