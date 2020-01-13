@@ -56,3 +56,56 @@ input:hover{
 #lucky:hover{
     border:0.5px solid rgb(200,200,200);  
 }
+#footer{
+    display:grid;
+    background-color: blue;
+    height:91px;
+    width: 100%;
+    grid-template-columns: 100px 80px 50px 150px 800px 100px 50px auto;
+    grid-template-rows: 55px 36px;
+    background-color:rgb(240,240,240) ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(110,110,110);
+}
+#russia{
+font-size: 14px;
+grid-area:1/1/2/2;
+text-align: center;
+margin-top: 15px;
+margin-left: -15px;
+}
+#Advertising {
+font-size: 12px;
+grid-area: 2/1/2/2;
+text-align: center;
+}
+#Business{
+    font-size: 12px;
+grid-area: 2/2/2/3;
+text-align: center;
+}
+#About{
+    font-size: 12px;
+grid-area: 2/3/2/4;
+text-align: center;
+}
+#How{
+    font-size: 12px;
+grid-area: 2/4/2/5;
+text-align: center;
+}
+#Privacy{
+        font-size: 12px;
+    grid-area: 2/5/2/6;
+    text-align: right;
+}
+#Terms{
+    font-size: 12px;
+grid-area: 2/6/2/7;
+text-align: center;
+}
+#Settings{
+    font-size: 12px;
+grid-area: 2/7/2/8;
+text-align: center;
+}
